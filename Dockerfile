@@ -35,6 +35,7 @@ ARG VERSION
 ARG GOPROXY=https://goproxy.io,direct
 ARG TARGETOS
 ARG TARGETARCH
+ARG TARGETPLATFORM
 
 WORKDIR /build
 COPY go.mod go.sum ./
